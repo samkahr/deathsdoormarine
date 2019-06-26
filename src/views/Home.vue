@@ -83,7 +83,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|Montserrat|Volkhov');
 .container-fluid {
-  margin: 30px;
+  margin-top: 30px;
 }
 #dockimage {
   width: 80vh;
@@ -114,7 +114,7 @@ font-family: 'Montserrat', sans-serif;
   background: url('../assets/deathsDoor_transparent.png');
 
   /* Full height */
-  height: 500 vh;
+  height: 500 px;
   padding: 30px;
 
   /* Create the parallax scrolling effect */

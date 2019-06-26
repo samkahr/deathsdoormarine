@@ -36,15 +36,12 @@ export default {
 
 <style>
 
-html, #content {
+html, body, #content {
   position: relative;
   min-height: calc(100vh - 150px);
-  margin: 0px;
+  margin: 0px; 
+  padding: 0;
 }
-
-/* #content {
-   
-} */
 
 #footer {
   position: relative;
