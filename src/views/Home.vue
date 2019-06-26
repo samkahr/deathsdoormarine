@@ -6,10 +6,19 @@
            data-aos-duration="1000"
            data-aos-once="true"
            class="col-sm-12 col-md-6 d-flex justify-content-around">
-<div>
+    <div class="info-mobile">
+      <h4 class="text-center">Contact us at:</h4> 
+   <ul  class="text-center" style="padding-left: 0; list-style: none;"> 
+  <li> <h4>(920) 421-1001 </h4></li>
+<li><h4><a href="mailto:mikekahr@gmail.com" target="_blank" style="color: black">mikekahr@gmail.com</a></h4></li>
+    </ul>
     <img src="../assets/ddm_pics/MarineConstruction/pic1.jpg" id="dockimage" class="img-fluid" alt="Responsive image" style="height:120px, width:60px, border-radius:25px">
-</div>
 
+    </div>
+
+    <div class="info-desktop">
+    <img src="../assets/ddm_pics/MarineConstruction/pic1.jpg" id="dockimage" class="img-fluid" alt="Responsive image" style="height:120px, width:60px, border-radius:25px">
+    </div>
  </div>
 
 
@@ -21,8 +30,13 @@
      <p> We specialize in constructing and maintaining safe harbors local boaters can depend on. We provide services ranging from installation of our
        patented dock designs to dredging to custom marine stone work. </p>
 <br></br>
-<h2>Contact us at: (920) 421-1001 </h2>
-<h2><a href="mailto:mikekahr@gmail.com" target="_blank" style="color: black">mikekahr@gmail.com</a></h2>
+<div class="info-desktop">
+<h2 class="text-center">Contact us at:</h2> 
+  <ul  class="text-center" style="padding-left: 0; list-style: none;"> 
+  <li> <h2>(920) 421-1001 </h2></li>
+<li><h2><a href="mailto:mikekahr@gmail.com" target="_blank" style="color: black">mikekahr@gmail.com</a></h2></li>
+    </ul>
+    </div>
      </div>
 </div>
 
@@ -36,12 +50,12 @@
              Owner Mike Kahr is a professional civil engineer who has been building and designing docks in Door County for over 30 years. 
              Mike is considered a statewide expert in marine contstruction and the permiting process for marine structures on Lake Michigan.  
              An example of his experitise can be seen in the multiple patents he holds for his innovative dock designs, 
-             which are designed to be raised, lowered, and fully withstanding of winter ice. Give us a call today for a free consultation. We are fully bonded and insured. </p>
+             which are designed to be raised, lowered, and fully withstanding of winter ice. Give us a call today for a free consultation.</p>
            </div>
 
            <div id= "captext">
              <h1 class="section-header text-uppercase" > Services Offered </h1>
-             <ul>
+             <ul style="padding-left: 10px;">
                <li><h4>Pier Installation and Repair </h4></li>
                <li><h4>Dredging</h4></li>
                <li><h4>Stone Work</h4></li>
@@ -49,13 +63,13 @@
                <li><h4>Barge Work</h4></li>
                <li><h4>Patented Pier Design and Installation</h4></li>
                <li><h4>Historic Pier Preservation</h4></li>
-               <li><h4>Beach Landscaping + Construction</h4></li>
+               <li><h4>Beach Landscaping and Construction</h4></li>
                <li><h4>Steel Sheeting Installation</h4></li>
                <li><h4>Concrete Pouring</h4></li>
                <li><h4>Equipment Hauling To and From Local Islands</h4></li>
                <li><h4>Professional Engineering Services</h4></li>
                <li><h4>Permitting Consultation</h4></li>
-
+               <li><h4>Fully bonded and insured.</h4></li>
              </ul>
            </div>
         </div>
@@ -122,6 +136,24 @@ font-family: 'Montserrat', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.info-mobile { 
+  display: none;
+  }
+.info-desktop { 
+  display: block; 
+  }
+
+@media only screen and (max-width: 600px) {
+  .parallax {
+    /* background: url('../assets/deathsDoor_transparent.png') no-repeat center center fixed; */
+    background: url('../assets/deathsDoor_transparent.png');
+    background-size: 250% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .info-mobile { display: block; }
+  .info-desktop { display: none; }
 }
 #abouttext {
   color: black;
