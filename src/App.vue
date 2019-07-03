@@ -26,6 +26,11 @@ import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'app',
+  watch: {
+        $route(to, from) {
+            document.title = to.meta.title || 'Some Default Title';
+        }
+  },
   components: {
     Home, 
     NavBar, 

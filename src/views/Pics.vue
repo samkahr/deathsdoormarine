@@ -31,7 +31,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          :src= "image.url"
+          v-lazy= "image.url"
         >
         </b-carousel-slide>
 
@@ -72,7 +72,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          :src= "image.url"
+          v-lazy="image.url"
         >
         </b-carousel-slide>
 
@@ -112,7 +112,7 @@
           class="d-block img-fluid w-100"
           width="1024"
           height="480"
-          :src= "image.url"
+          v-lazy= "image.url"
         >
         </b-carousel-slide>
 
@@ -133,6 +133,7 @@
 
 import NavBar from '@/components/NavBar.vue'
 import Footer from '@/components/Footer.vue'
+
 
 export default {
   name: 'Pics',
