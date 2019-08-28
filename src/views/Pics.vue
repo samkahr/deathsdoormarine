@@ -169,6 +169,8 @@ export default {
                 { url: require("../assets/ddm_pics/Stonework/2018-05-15 15.06.53.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2018-05-16 09.48.31.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2018-08-31 16.20.14.jpg") },
+                { url: require("../assets/ddm_pics/Stonework/IMG_1177.jpg") },
+                { url: require("../assets/ddm_pics/Stonework/IMG_1172001.jpg") },
                 { url: require("../assets/ddm_pics/2014-03-16 14.51.41.jpg") },
             ], 
             misc: [
