@@ -1,7 +1,7 @@
 <template>
 <div id="pics">
 <b-container class="container">
- <h1 class="text-center"> Completed Work </h1>
+ <h1 class="text-center"> Pictures of Past Projects </h1>
 <b-row align-v="center">
 <b-col sm="auto">
 <b-card

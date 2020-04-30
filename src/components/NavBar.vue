@@ -9,7 +9,7 @@
           <b-navbar-nav>
             <b-nav-item><router-link to="/" v-scroll-to="'#about'">About</router-link></b-nav-item>
             <b-nav-item><router-link to="/" v-scroll-to="'#about'">Services</router-link></b-nav-item>
-            <b-nav-item><router-link to="/pics">Examples of Completed Work</router-link></b-nav-item>
+            <b-nav-item><router-link to="/pics">Pictures of Past Projects</router-link></b-nav-item>
           </b-navbar-nav>
  </b-collapse>
  </b-navbar>
