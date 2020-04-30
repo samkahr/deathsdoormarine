@@ -161,6 +161,10 @@ export default {
                 { url: require("../assets/ddm_pics/MarineConstruction/2018-12-06 16.14.46.jpg") },
             ], 
              stonework: [
+                { url: require("../assets/ddm_pics/Stonework/12200320_150259.jpg") },
+                { url: require("../assets/ddm_pics/Stonework/13200411_131733.jpg") },
+                { url: require("../assets/ddm_pics/Stonework/14200411_131804 (1).jpg") },
+                { url: require("../assets/ddm_pics/Stonework/15200305_123152.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2014-07-23 15.22.13.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2015-04-20 14.28.52.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2015-11-06 09.41.20.jpg") },
@@ -169,6 +173,7 @@ export default {
                 { url: require("../assets/ddm_pics/Stonework/2018-05-15 15.06.53.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2018-05-16 09.48.31.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/2018-08-31 16.20.14.jpg") },
+                { url: require("../assets/ddm_pics/Stonework/IMG_4740.jpeg") },
                 { url: require("../assets/ddm_pics/Stonework/IMG_1177.jpg") },
                 { url: require("../assets/ddm_pics/Stonework/IMG_1172001.jpg") },
                 { url: require("../assets/ddm_pics/2014-03-16 14.51.41.jpg") },
